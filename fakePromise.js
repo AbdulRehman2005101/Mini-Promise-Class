@@ -1,4 +1,4 @@
-class fakePromise{
+export class fakePromise{
     constructor(executer){
         this.onSuccess=null;
         this.onfailure-null;
